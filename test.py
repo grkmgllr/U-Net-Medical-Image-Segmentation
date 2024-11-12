@@ -53,10 +53,10 @@ def test_model(model, args, save_path):
 if __name__ == '__main__':
 
     args = test_arg_parser()
-    save_path = "/Users/grkmgllr/Desktop/ML_HW2/results"
+    save_path = "/path/to/your/results/folder"
     set_seed(42)
 
-    dataset = MadisonStomach(data_path="/Users/grkmgllr/Desktop/ML_HW2/madison-stomach",
+    dataset = MadisonStomach(data_path="/path/to/your/madison-stomach/folder",
                             mode="test")
 
     test_dataloader = DataLoader(dataset, batch_size=args.bs)
