@@ -136,10 +136,10 @@ def train_one_epoch(model, train_loader, val_loader, train_loss_history, val_los
 if __name__ == '__main__':
 
     args = train_arg_parser()
-    save_path = "/Users/grkmgllr/Desktop/ML_HW2/results"
+    save_path = "/path/to/your/results/folder"
     set_seed(42)
 
-    dataset = MadisonStomach(data_path="/Users/grkmgllr/Desktop/ML_HW2/madison-stomach",
+    dataset = MadisonStomach(data_path="/path/to/your/madison-stomach/folder",
                             mode=args.mode)
 
 
