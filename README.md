@@ -73,7 +73,7 @@ For M1/M2 Macs, ensure you have the correct version of PyTorch with Metal (MPS) 
 
 1. Clone the Repository:
 
-- git clone [your repository URL]
+- git clone [https://github.com/grkmgllr/U-Net-Medical-Image-Segmentation.git]
 - cd your repository directory
 
 2. Configure Paths:
